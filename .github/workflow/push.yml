@@ -34,9 +34,8 @@ jobs:
       - name: 发布到阿里云
         uses: easingthemes/ssh-deploy@master
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
           SOURCE: "dist/"
           REMOTE_HOST: ${{ secrets.HOST }}
           REMOTE_USER: ${{ secrets.USER }}
           TARGET: '/var/www/my-practise/'
-          EXCLUDE: "/dist/, /node_modules/"
