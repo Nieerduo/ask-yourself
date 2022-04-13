@@ -38,4 +38,4 @@ jobs:
           SOURCE: "dist/"
           REMOTE_HOST: ${{ secrets.HOST }}
           REMOTE_USER: ${{ secrets.USERNAME }}
-          TARGET: '/var/www/my-practise/'
+          TARGET: '/var/www/my-practise/dist'
