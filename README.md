@@ -1,4 +1,131 @@
-# 一些练习
+# ask-yourself
 
-## 持续集成
+## JavaScript
 
+* 语法
+  * 值、变量
+  * 数据类型
+    * 基本类型
+    * 类型判断
+    * 类型转换
+  * 流程控制
+  * 运算（表达式，运算符）
+    * 数学
+    * 比较
+    * 逻辑
+  * 函数
+    * 函数声明
+    * 函数表达式
+    * 回调函数
+    * 箭头函数
+* 数据类型深入
+  * 原始类型的方法
+  * 数字类型
+  * 字符串
+  * 数组
+  * 数组方法
+  * Iterable object(可迭代对象)
+  * Map and Set(映射和集合)
+  * WeakMap and WeakSet（弱映射和弱集合）
+  * Object.keys,values,entries
+  * 解构赋值
+  * 日期和事件
+  * JSON序列化、反序列化
+* 对象
+  * 属性/字面量
+  * in、for...in
+  * 对象引用
+  * 深拷贝、浅拷贝
+  * Symbol
+  * 垃圾收集机制
+  * this
+  * new
+  * Optional chaining '?.'
+  * 类型转换Symbol.toPrimitive
+  * Property flags、descriptors
+  * getters、setters
+* 函数
+  * 调用栈
+  * 递归、尾递归
+  * arguments、params、spread
+  * 作用域、闭包
+  * var、变量提升
+  * IIFE、匿名自执行函数
+  * NFE、函数命名表达式
+  * 箭头函数
+  * new Function
+  * setTimeout、setInterval
+  * call、apply、bind
+  * 部分施用、柯里化
+* 原型
+  * 原型链、继承
+  * F.prototype
+  * Object.prototype
+* 类
+  * extend继承
+  * 方法重载
+  * 构造函数
+  * Super、[[HomeObject]]
+  * 静态属性、静态函数
+  * 私有属性、私有函数
+  * 混合、Mixins
+* 异步流程控制
+  * Callback
+  * Promise
+    * Promise/A+、Promisification、Thenable
+  * async/await
+  * generator
+  * iterable
+* 模块化
+  * CommonJS
+  * amd、cmd、umd、es-module
+* 异常捕获
+  * try...catch...finally
+  * throw
+  * Error
+
+
+## CSS
+* 语法
+  * @规则
+  * 层叠
+  * 注释
+  * 解释器
+  * 继承
+  * 简写
+  * 优先级
+  * 值定义
+  * 单位与取值类型
+* 选择器
+  * 元素选择器
+  * 选择器分组
+  * 类选择器
+  * ID选择器
+  * 属性选择器
+  * 后代选择器
+  * 子元素选择器
+  * 相邻选择器
+  * 伪类
+  * 伪元素
+* 定位
+  * position
+  * top、left、bottom、right
+  * z-index
+* 布局
+  * Box Model
+  * FlexBox
+  * Grid
+  * Column
+* 样式
+  * 背景
+  * 文本
+  * 轮廓
+  * 列表
+* 动画
+  * Animation
+  * transition
+* 应用
+  * 响应式
+    * em、vh/vw、%
+  * 自适应
+    * @media、rem
